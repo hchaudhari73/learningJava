@@ -18,4 +18,17 @@ public class operators {
         float fDiv = c / d;
         System.out.println("float division: " + fDiv);
     }
+
+    public static void comparitor() {
+        int a = 1;
+        int b = 3;
+
+        System.out.println("Equals to: " + (a == b));
+        System.out.println("Not equals to: " + (a != b));
+        System.out.println("Greater than: " + (a > b));
+        System.out.println("Less than: " + (a < b));
+        System.out.println("Greater than equal to: " + (a >= b));
+        System.out.println("Less than equal to: " + (a <= b));
+
+    }
 }
