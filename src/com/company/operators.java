@@ -19,7 +19,7 @@ public class operators {
         System.out.println("float division: " + fDiv);
     }
 
-    public static void comparitor() {
+    public static void comparator() {
         int a = 1;
         int b = 3;
 
@@ -30,5 +30,16 @@ public class operators {
         System.out.println("Greater than equal to: " + (a >= b));
         System.out.println("Less than equal to: " + (a <= b));
 
+    }
+
+    public static void logicalOperators() {
+        int a = 30;
+        int b = 40;
+
+        if (a < 50 && b < 50) {
+            System.out.println("And");
+        } else if  (a < 50 || b > 50) {
+            System.out.println("OR");
+        }
     }
 }
