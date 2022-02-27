@@ -48,4 +48,18 @@ public class loops {
 
         } while (num > 0);
     }
+
+    public static void exercise1() {
+        int num = 1;
+        while (num<=5) {
+
+            // skipping num = 3
+            if (num == 3) {
+                num++;
+                continue;
+            }
+            System.out.println(num);
+            num++;
+        }
+    }
 }
